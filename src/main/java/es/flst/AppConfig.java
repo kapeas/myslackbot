@@ -17,6 +17,8 @@ public class AppConfig extends Application {
 
         // Add your resources.
         resources.add(ChannelCreatedResource.class);
+        resources.add(CreatedResource.class);
+        resources.add(CallbackResource.class);
 
         // Add additional features such as support for Multipart.
         resources.add(MultiPartFeature.class);
